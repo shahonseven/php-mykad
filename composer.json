@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": ">=8.1",
-        "nesbot/carbon": "3.x-dev"
+        "nesbot/carbon": "^2.71"
     },
     "license": "MIT",
     "authors": [
@@ -13,7 +13,7 @@
             "email": "sh@hril.dev"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Shahonseven\\MyKad\\": "src/",
@@ -21,6 +21,6 @@
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "10.5.x-dev"
+        "phpunit/phpunit": "^10.4"
     }
 }
