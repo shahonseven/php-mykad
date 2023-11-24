@@ -1,0 +1,26 @@
+{
+    "name": "shahonseven/php-mykad",
+    "description": "Package for extracting information from MyKad",
+    "type": "library",
+    "require": {
+        "php": ">=8.1",
+        "nesbot/carbon": "3.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shahril Abdullah",
+            "email": "sh@hril.dev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Shahonseven\\MyKad\\": "src/",
+            "Shahonseven\\MyKad\\Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.5.x-dev"
+    }
+}
